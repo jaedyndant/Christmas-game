@@ -1,0 +1,50 @@
+
+
+canvas {
+    position: absolute;
+    border: 1px solid rgb(80, 180, 255);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+#canvasSnowBackground {
+    background: rgb(80, 180, 255);
+}
+button{
+	font-size:large;
+	font-family:Arial;
+	color: white;
+	background: white;
+	cursor:pointer;
+  padding: 0px 30px;
+  border-radius: 10px;
+  border: 1px solid rgba(80,180,255,0);
+  background: rgb(80, 180, 255);
+  transition: 0.3s;
+  justify-content: space-between;
+}
+button:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(80, 180, 255);
+   border: 1px solid rgba(80,180,255,1);
+}
+#overlay{
+	text-align:center;
+	font-size:x-large;
+	position: absolute;
+	left: 50%;
+	top: calc(50% + 340px);
+	transform: translate(-50%, -50%);
+	justify-content: space-between;
+  width: 480px;
+}
+#overlay > button, #overlay > span {
+  justify-content: space-between;
+}
+#overlay > span {
+  line-height: 50px;
+  font-size: 20px;
+	font-family:Arial;
+}
+
