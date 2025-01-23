@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christmas decoration game</title>
     <link rel="stylesheet" href="assets/style.css">
-    <link rel="icon" type="image/x-icon" href="assets\img\santa-icon.png">
+    <link rel="icon" type="image/x-icon" href="assets/img/santa-icon.png">
 </head>
 <body onload="main()">
     <canvas id="canvasSnowBackground"></canvas>
     <canvas id="canvasTreeBranches"></canvas>
     <canvas id="canvasSnowForeground"></canvas>
     <canvas id="canvasGame"></canvas>
-	
-    <script defer  src="script.js"></script>
+
+    <div id="overlay">
+        <h1 style="font-family: 'Playwright India', cursive; position: relative; top: 5px;">Merry Christmas Game!</h1>
+        <button onclick="startGame()">Restart</button>
+    </div>
+
+    <script defer src="script.js"></script>
 </body>
 </html>
